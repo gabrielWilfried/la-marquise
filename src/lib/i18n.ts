@@ -85,7 +85,8 @@ const resources = {
           sundayTime: "12:00 PM - 10:00 PM"
         },
         whatsapp: "Chat on WhatsApp",
-        callUs: "Call Us"
+        callUs: "Call Us",
+        directions: "Get Directions"
       },
       // Reservation
       reservation: {
@@ -200,7 +201,8 @@ const resources = {
           sundayTime: "12h00 - 22h00"
         },
         whatsapp: "Discuter sur WhatsApp",
-        callUs: "Appelez-nous"
+        callUs: "Appelez-nous",
+        directions: 'Itinéraire'
       },
       // Reservation
       reservation: {

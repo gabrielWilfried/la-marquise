@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Phone, MessageCircle, Check } from "lucide-react";
+import { Phone, MessageCircle, Check, Navigation } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -256,6 +256,22 @@ export function ReservationSection() {
                       </p>
                       <p className="font-body text-sm text-muted-foreground">
                         +237 670 85 85 85
+                      </p>
+                    </div>
+                  </motion.a>
+                  <motion.a
+                    href="https://maps.google.com/?q=LA+MARQUISE+RESTAURANT+Douala+Cameroon"
+                    className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors group"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    target="blank"
+                  >
+                    <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center">
+                      <Navigation className="w-6 h-6 text-green-500" />
+                    </div>
+                    <div>
+                      <p className="font-body font-medium text-foreground">
+                        {t("contact.directions")}
                       </p>
                     </div>
                   </motion.a>
