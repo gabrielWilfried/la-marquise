@@ -15,5 +15,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'), 
     },
   },
-  // base: process.env.VITE_BASE_PATH || "/la-marquise",
+  base: process.env.VITE_BASE_PATH || "/la-marquise",
 })
